@@ -1,0 +1,50 @@
+* {
+    background-color: #EEEEEE;
+}
+
+#menu li {
+    display: inline;
+    padding: 20px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu li a:hover {
+    color: grey;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+    padding: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.tamanho {
+    padding: 0 20px;
+    width: 500px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rede-social {
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+}
+
+
+
+/* JavaScript */
+
